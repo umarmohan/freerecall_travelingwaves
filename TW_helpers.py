@@ -78,7 +78,7 @@ def tw_main_reg(tw_reg):
 
 #calculate r_bar
 
-
+# calculation for directional consistency
 def rbar(x):
     n=len(x)
     x1 = numexpr.evaluate('sum(cos(x) / n, axis=0)')
